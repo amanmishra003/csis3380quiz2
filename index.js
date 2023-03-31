@@ -5,7 +5,9 @@ const app = express();
 const port = 3002;
 
 /*mongoose.connect("mongodb://127.0.0.1/Exams", { useNewUrlParser: true });*/
-mongoose.connect("mongodb+srv://amanm:123@cluster0.guqm2iq.mongodb.net/test");
+/*mongoose.connect("mongodb+srv://amanm:123@cluster0.guqm2iq.mongodb.net/test");*/
+  mongoose.connect("mongodb+srv://tempuser:123@cluster0.f9d6o.gcp.mongodb.net/Exam");
+
 const db = mongoose.connection;
 
 const  quizesSchema = new mongoose.Schema({
