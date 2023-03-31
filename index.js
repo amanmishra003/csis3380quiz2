@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 const app = express();
-const port = 3002;
+const port = 7000;
 
 /*mongoose.connect("mongodb://127.0.0.1/Exams", { useNewUrlParser: true });*/
 /*mongoose.connect("mongodb+srv://amanm:123@cluster0.guqm2iq.mongodb.net/test");*/
